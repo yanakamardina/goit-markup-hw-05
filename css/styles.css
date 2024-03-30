@@ -8,6 +8,16 @@ body {
     background-color: #FFFFFF;
 }
 
+input {
+    font-family: inherit;
+}
+
+/* fieldset {
+    padding: 0;
+    margin: 0;
+    border: none;
+} */
+
 a {
     text-decoration: none;
 }
@@ -500,6 +510,10 @@ footer {
     margin-right: 120px;
 }
 
+.footer-sotial-media {
+    margin-right: 80px;
+}
+
 .sotial-icons-ellipse-footer:hover,
 .sotial-icons-ellipse-footer:focus {
     background-color: #31d0aa;
@@ -508,3 +522,23 @@ footer {
 .sotial-icons-footer {
     gap: 16px;
 }
+
+.footer-form-subscribe {
+    display: flex;
+    
+}
+
+.footer-submit-btn {
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    width: 165px;
+    height: 40px;
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+        
