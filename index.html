@@ -589,14 +589,56 @@
           </ul>
         </div>
 
-        <div class="footer-form">
+        <!-- <div class="footer-form">
           <p class="sotial-text form-text">Subscribe</p>
           <form class="footer-form-subscribe">
-            <input class="footer-input" type="text" />
-            <div>
-              <button class="footer-submit-btn" type="submit">
+            <div class="footer-form-wrapper">
+              <input
+                class="footer-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+              <button class="footer-submit-btn button" type="submit">
                 Subscribe
-                <svg class="sotial-icon" width="24" height="24">
+                <svg
+                  class="sotial-icon sotial-icon-send"
+                  width="24"
+                  height="24"
+                >
+                  <use
+                    href="./images/icons.svg#icon-send"
+                    width="24"
+                    height="24"
+                  ></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div> -->
+
+        <div class="footer-form">
+          <!-- <p class="sotial-text form-text">Subscribe</p> -->
+          <form class="footer-form-subscribe" id="footer-form-subscribe">
+            <label
+              class="footer-form-subscribe-label sotial-text"
+              for="footer-form-subscribe"
+              >Subscribe</label
+            >
+            <div class="footer-form-wrapper">
+              <input
+                class="footer-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+              <button class="footer-submit-btn button" type="submit">
+                Subscribe
+                <svg
+                  class="sotial-icon sotial-icon-send"
+                  width="24"
+                  height="24"
+                >
                   <use
                     href="./images/icons.svg#icon-send"
                     width="24"
@@ -609,5 +651,7 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal-overlay"></div>
   </body>
 </html>
