@@ -589,64 +589,27 @@
           </ul>
         </div>
 
-        <!-- <div class="footer-form">
+        <div class="footer-form">
           <p class="sotial-text form-text">Subscribe</p>
           <form class="footer-form-subscribe">
-            <div class="footer-form-wrapper">
+            <label class="footer-subscribe-label sotial-text">
               <input
                 class="footer-input"
                 type="email"
                 name="email"
                 placeholder="E-mail"
-              />
-              <button class="footer-submit-btn button" type="submit">
-                Subscribe
-                <svg
-                  class="sotial-icon sotial-icon-send"
+                id="footer-subscribe"
+            /></label>
+            <button class="footer-submit-btn button" type="submit">
+              Subscribe
+              <svg class="sotial-icon sotial-icon-send" width="24" height="24">
+                <use
+                  href="./images/icons.svg#icon-send"
                   width="24"
                   height="24"
-                >
-                  <use
-                    href="./images/icons.svg#icon-send"
-                    width="24"
-                    height="24"
-                  ></use>
-                </svg>
-              </button>
-            </div>
-          </form>
-        </div> -->
-
-        <div class="footer-form">
-          <!-- <p class="sotial-text form-text">Subscribe</p> -->
-          <form class="footer-form-subscribe" id="footer-form-subscribe">
-            <label
-              class="footer-form-subscribe-label sotial-text"
-              for="footer-form-subscribe"
-              >Subscribe</label
-            >
-            <div class="footer-form-wrapper">
-              <input
-                class="footer-input"
-                type="email"
-                name="email"
-                placeholder="E-mail"
-              />
-              <button class="footer-submit-btn button" type="submit">
-                Subscribe
-                <svg
-                  class="sotial-icon sotial-icon-send"
-                  width="24"
-                  height="24"
-                >
-                  <use
-                    href="./images/icons.svg#icon-send"
-                    width="24"
-                    height="24"
-                  ></use>
-                </svg>
-              </button>
-            </div>
+                ></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -663,6 +626,7 @@
             ></use>
           </svg>
         </button>
+
         <p class="modal-title">Leave your contacts and we will call you back</p>
 
         <form class="modal-form">
@@ -722,27 +686,26 @@
           <div class="privacy-policy-wrapper">
             <input
               type="checkbox"
-              name="check"
-              id="modal-check"
+              name="user-privacy"
+              id="user-privacy"
               class="modal-check-inp visually-hidden"
               required
+              value="true"
             />
-            <label for="modal-check" class="check-text">
+            <label for="user-privacy" class="check-text">
               <span class="check-text-span"
                 ><svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#active-icon"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the&nbsp
+              I accept the terms and conditions of the&nbsp;
               <a href="./index.html" class="check-link"
                 >Privacy Policy</a
               ></label
             >
           </div>
 
-          <div class="modal-button-wrapper">
-            <button class="button modal-button" type="submit">Send</button>
-          </div>
+          <button class="button modal-button" type="submit">Send</button>
         </form>
       </div>
     </div>
