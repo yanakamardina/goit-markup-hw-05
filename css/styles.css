@@ -680,6 +680,10 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 8px;
 }
 
+.modal-input-wrapper-textarea {
+    margin-bottom: 16px;
+}
+
 .modal-label {
     font-size: 12px;
     line-height: 1.17;
